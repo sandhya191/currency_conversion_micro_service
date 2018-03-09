@@ -7,6 +7,13 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.cloud.sleuth.sampler.AlwaysSampler;
 import org.springframework.context.annotation.Bean;
 
+/**
+ * 
+ * @author Sandhya
+ * Currency Conversion Service Application for Project
+ *
+ */
+
 @EnableFeignClients("com.examples.web")
 @SpringBootApplication
 @EnableDiscoveryClient

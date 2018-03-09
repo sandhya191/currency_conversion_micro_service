@@ -2,6 +2,13 @@ package com.examples.web;
 
 import java.math.BigDecimal;
 
+/**
+ * 
+ * @author Sandhya
+ * Currency Conversion Bean for a project
+ *
+ */
+
 public class CurrencyConversionBean {
 	private Long id;
 	private String from;
